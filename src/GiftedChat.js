@@ -177,7 +177,8 @@ class GiftedChat extends React.Component {
       // So for calculate the messages container height ignore keyboard height.
       return 0;
     }
-    return this._keyboardHeight;
+    // return this._keyboardHeight;
+    return 0; // quick fix for using with react-navigation headers
   }
 
 
